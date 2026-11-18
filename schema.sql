@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS animals;
+
+CREATE TABLE animals (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  species TEXT NOT NULL,
+  breed TEXT,
+  age INTEGER NOT NULL,
+  adopted INTEGER NOT NULL DEFAULT 0
+);
